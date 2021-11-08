@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* Top of Portfolio Design */
+.max-width{
+    max-width: 1600px;
+    padding: 0 40px;
+    margin: auto;
+}
+ .navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar{
+    background-color: navy;
+    position: fixed;
+    padding: 15px 0 ;
+    width: 100%;
+}
+.navbar .title a{
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight:500;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+    
+}
+.navbar .menu li a{
+    color: white;
+    font-size: 25px;
+    font-family: Arial;
+    margin-left: 20px;
+}
